@@ -13,9 +13,9 @@ public class Hand {
 	public int total() {
 		
 		int totalScore = 0;
-		
-		for (int index = 0; index < this.cards.size(); index++ ) {
-			totalScore += this.cards.get(index).getValue();
+				
+		for (Card card : this.cards) {
+			totalScore += card.getValue();
 		}
 		
 		return totalScore;
