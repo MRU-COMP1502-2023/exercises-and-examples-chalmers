@@ -2,21 +2,26 @@ package ClassBasics.mvc;
 import java.io.FileNotFoundException;
 
 import ClassBasics.mvc.Character;
+import ClassBasics.mvc.CharacterCreator;
 
 public class Controller {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		// create a character object
-		Character king = new Character("king", 10, 2);
+		// make an instance of the CharacterCreatorObject
+		CharacterCreator creator = new CharacterCreator();
 		
-		// save it
-		king.save();
+		// get character details
+		String name = creator.getCharacterName();
+		int strength = creator.getCharacterStrength();
+		int dexterity = creator.getCharacterDexterity();
 		
-		// create a new instance of Character by loading the saved data
-		Character king2 = new Character("king.txt");
-
-
+		// use the details to create a Character object
+		Character character = new Character(name, strength, dexterity);
+		
+		// save the Character
+		character.save();
+		System.out.println("character saved");
 	}
 
 }
