@@ -10,5 +10,4 @@ public class Dog extends Vertebrate {
 		this.name = name;
 		this.shedsOnCarpet = sheds;
 	}
-	
 }

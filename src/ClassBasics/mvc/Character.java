@@ -11,9 +11,9 @@ import java.util.Scanner;
  */
 public class Character {
 	
-	String name;
-	int strength;
-	int dexterity;
+	private String name;
+	private int strength;
+	private int dexterity;
 	
 	/**
 	 * constructor
