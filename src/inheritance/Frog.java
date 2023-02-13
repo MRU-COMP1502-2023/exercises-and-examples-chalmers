@@ -5,8 +5,8 @@ public class Frog extends Vertebrate{
 	private boolean poisonous;
 	
 	public Frog(boolean poisonous) {
+		super(10);
 		this.poisonous = poisonous;
-		this.setNumberOfVertebrae(10);
 	}
 	
 	public boolean getPoisonous() {
