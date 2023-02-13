@@ -6,5 +6,4 @@ public class Main {
 		Frog myFrog = new Frog(true);
 		System.out.println(myFrog.getNumberOfVertebrae());
 	}
-
 }
