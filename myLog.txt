@@ -1,0 +1,6 @@
+Mar 22, 2023 12:16:42 PM logging.LoggingDemo main
+INFO: loading data
+Mar 22, 2023 12:16:42 PM logging.LoggingDemo main
+WARNING: invalid user input handled
+Mar 22, 2023 12:16:42 PM logging.LoggingDemo main
+FINE: exiting...
